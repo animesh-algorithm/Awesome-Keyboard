@@ -1,0 +1,137 @@
+body {
+    background: #313131;
+    opacity: 0.8;
+}
+
+.keyboard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+}
+
+.row {
+    display: inline-flex;
+}
+
+.button {
+    width: 60px;
+    height: 60px;
+    background: rgba(131, 126, 126, 0.5);
+    border: 3px rgb(255, 51, 0);
+    border-style: outset;
+    border-radius: 50%;
+    color: wheat;
+    text-align: center;
+    position: relative;
+    margin: 5px;
+    font-size: 20px;
+    transition: 0.7 all;
+}
+
+.button1 {
+    width: 30px;
+    height: 20px;
+    background: rgba(131, 126, 126, 0.5);
+    border: 3px rgb(255, 51, 0);
+    border-style: outset;
+    border-radius: 50%;
+    color: wheat;
+    text-align: center;
+    position: relative;
+    margin: 5px;
+    font-size: 20px;
+    transition: 0.5 all;
+}
+
+.row1 {
+    display: inline-flex;
+}
+
+.arrow-up {
+    transform: translateX(46px)
+}
+
+.special-symbol .up {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.special-symbol .down {
+    position: absolute;
+    bottom: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.symbol .up {
+    margin-bottom: 7px;
+}
+
+.numeric-keys .down {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.backspace {
+    width: 150px;
+}
+
+.content {
+    margin: 20px;
+}
+
+.tab {
+    width: 105px;
+}
+
+.enter {
+   /* height: 140px;*/
+    width: 105px;
+    border-bottom: none
+}
+
+.capslock {
+    width: 130px;
+}
+
+.delete {
+    width: 81px;
+}
+
+.shift, .ctrl {
+    width: 105px;
+}
+
+.windows {
+    font-size: 40px;
+}
+
+.windows .content {
+    margin:10px;
+}
+
+.space {
+    width: 365px;
+    border-radius: 40%;
+}
+
+.end, .home {
+    width: 89px;
+}
+
+.inputBox {
+    background: none;
+    outline: none;
+    width: 100%;
+    height: 100px;
+    border: 1px rgb(255, 51, 0);
+    border-style: outset;
+    font-size:30px;
+    border-radius: 5px;
+    color: wheat;
+}
